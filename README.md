@@ -1,6 +1,9 @@
 # IAMGroot
 simple tool to show non-readonly permissions on IAM json
 
+## INSTALL
+- clone this project
+
 ## USAGE
 
 python main.py [-h] PATH

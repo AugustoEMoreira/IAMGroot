@@ -1,0 +1,69 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:ModifyTransitGatewayVpcAttachment",
+                "ec2:AcceptVpcEndpointConnections",
+                "ec2:ModifyClientVpnEndpoint",
+                "ec2:AllocateAddress",
+                "ec2:GetConsoleOutput",
+                "ec2:DetachVpnGateway",
+                "ec2:DeleteVpnConnectionRoute",
+                "ec2:CreateCarrierGateway",
+                "ec2:ModifyCapacityReservation",
+                "ec2:CreateCapacityReservation",
+                "ec2:CreateNetworkInterfacePermission",
+                "ec2:ModifyTransitGatewayPrefixListReference",
+                "ec2:DeleteClientVpnRoute",
+                "ec2:CreateSubnet",
+                "ec2:DeleteVpnConnection"
+            ],
+            "Resource": [
+                "arn:aws:ec2:*:277850109519:network-interface/*",
+                "arn:aws:ec2:*:277850109519:prefix-list/*",
+                "arn:aws:ec2:*:277850109519:ipv4pool-ec2/*",
+                "arn:aws:ec2:*:277850109519:instance/*",
+                "arn:aws:ec2:*:277850109519:vpc-endpoint/*",
+                "arn:aws:ec2:*:277850109519:transit-gateway-attachment/*",
+                "arn:aws:ec2:*:277850109519:vpn-connection/*",
+                "arn:aws:ec2:*:277850109519:transit-gateway-route-table/*",
+                "arn:aws:ec2:*:277850109519:security-group/*",
+                "arn:aws:ec2:*:277850109519:capacity-reservation/*",
+                "arn:aws:ec2:*:277850109519:client-vpn-endpoint/*",
+                "arn:aws:ec2:*:277850109519:carrier-gateway/*",
+                "arn:aws:ec2:*:277850109519:subnet/*",
+                "arn:aws:ec2:*:277850109519:vpn-gateway/*",
+                "arn:aws:ec2:*:277850109519:vpc/*",
+                "arn:aws:ec2:*:277850109519:vpc-endpoint-service/*"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:GetDefaultCreditSpecification",
+                "ec2:DescribeAddresses",
+                "ec2:DescribeVpcClassicLinkDnsSupport",
+                "ec2:GetCoipPoolUsage",
+                "ec2:DescribeAddressesAttribute",
+                "ec2:CreateSubnetCidrReservation",
+                "ec2:DescribeNetworkInsightsPaths",
+                "ec2:DescribeVpcEndpointConnectionNotifications",
+                "ec2:DescribeTrafficMirrorSessions",
+                "ec2:DescribeInternetGateways",
+                "ec2:DescribeExportImageTasks",
+                "ec2:DescribeTrafficMirrorFilters",
+                "ec2:DeleteNetworkInterfacePermission",
+                "ec2:DescribeNetworkInterfaceAttribute",
+                "ec2:DescribeIpv6Pools",
+                "ec2:DescribeExportTasks",
+                "ec2:DisableEbsEncryptionByDefault",
+                "ec2:DescribeElasticGpus"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

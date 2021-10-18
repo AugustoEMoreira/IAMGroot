@@ -1,5 +1,5 @@
 # IAMGroot
-simple tool to show non-readonly permissions on IAM json
+simple tool to show write actions on IAM policies
 
 ## INSTALL
 - clone this project
